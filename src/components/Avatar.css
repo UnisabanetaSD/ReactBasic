@@ -1,0 +1,23 @@
+picture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+}
+
+picture.is-small {
+    width: 50px;
+}
+
+picture.is-large {
+    width: 150px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+img.disabled {
+    opacity: 0.3;
+}
